@@ -55,8 +55,8 @@ code {
 .ConteoForm{
   margin-top: 30px;
   text-align: center;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: 5%;
+  margin-right: 5%;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.384);
   padding-top: 40px;
@@ -82,8 +82,8 @@ code {
 .login{
   margin-top: 30px;
   text-align: center;
-  margin-left: 30%;
-  margin-right: 30%;
+  margin-left: 20%;
+  margin-right: 20%;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.384);
   padding-top: 40px;
@@ -122,6 +122,7 @@ code {
     width: 300px;
 }
 
+
   .App {
     text-align: center;
   }
@@ -153,7 +154,7 @@ code {
     align-items: center;
     justify-content: center;
     margin-top: 20px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     font-size: calc(20px + 2vmin);
   }
   
@@ -174,6 +175,9 @@ code {
 .botones{
   text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 70%;
   margin: auto;
   margin-top: 100px;
@@ -277,15 +281,9 @@ padding: 14px 0px;
 .borra-group{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
-.borra-group button[type=button]{
-    background-color: #8d1919;
-    border: 3px solid #000000;
-    display: flex;
-    align-items: center;
-}
 
 .giro-group{
   display: flex;
@@ -300,14 +298,10 @@ padding: 14px 0px;
 .vehiculo-group{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
-.vehiculo-group button[type=button]{
-  color: rgb(255, 255, 255);
-  border: 3px solid #000000;
-  background-color: rgb(56, 165, 34);
-}
+
 .conteos{
   color: #000000;
   font-weight: 500;
@@ -343,15 +337,15 @@ padding: 14px 0px;
  
 }
 
-.container input[type="text"],
-.container input[type="password"]{
+.logincont input[type="text"],
+.logincont input[type="password"]{
   background: rgba(255, 255, 255, 0.541);
   display: block;
   margin: 20px auto;
   padding: 20px ;
   text-align: left;
   border: none;
-  width: 300px;
+  width: 80%;
   outline: none;
   color: rgb(82, 82, 82);
   border-radius: 10px;
@@ -417,7 +411,7 @@ padding: 14px 0px;
 
 .container input[type="text"]:focus,
 .container input[type="password"]:focus{
-  width: 280px;
+  width: 90%;
   border-color: white;
 }
 
